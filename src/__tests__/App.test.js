@@ -32,10 +32,12 @@ describe('App', () => {
         expect(wrapper.find(Choices).length).toEqual(1);
     });
 
-    
+    // it('should generate random choice', () => {
+    //     expect(restartGame()).toMatch(/rock|paper|scissors|lizard|spock/);
+    // });
 
-    it('should return win if the player has won', () => {
-        expect(getWinner('rock', 'scissors')).toEqual('wins');
-    });
+    // it('should return win if the player has won', () => {
+    //     expect(getWinner('rock', 'scissors')).toEqual('wins');
+    //   });
     
 });
